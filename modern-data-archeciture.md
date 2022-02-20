@@ -15,7 +15,9 @@ Zaloni data archeciture:
 
 ![image](https://user-images.githubusercontent.com/46624390/153370908-54808122-7298-4eb6-8dcf-ce7f7d5e0b20.png)
 
+general lakehouse:
 
+![lakehouse_general](https://user-images.githubusercontent.com/46624390/154840355-1046d595-553d-41a9-b7ab-4b1b27203676.png)
 
 
 Some common storage options for data lake :
@@ -45,6 +47,9 @@ Data governance,  meta-data system is a must in order to make analyst can reach 
 
 
 Data lakes zones (Very important even though could be garbage 😊):
-*	Zone 1: The Transient Landing Zone: The transient zone is temporary; it is a landing zone for data where security measures can be applied before it is stored or accessed. We should check the quality and apply security needed
-
+*	Zone 1: The Transient Landing Zone: The transient zone is temporary; it is a landing zone for data where security measures can be applied before it is stored or accessed. We should check the quality and apply security needed.
+*	Zone 2: The Raw Zone: data is stored permanently and in its original form. Add it to catalogs and ehnance the meta data.
+*	Zone 3: The Trusted Zone:data is altered so that it is in compliance with all policies as well as checked for quality. Organizations perform standard data cleansing and data validation methods here.
+*	Zone 4: The Refined Zone:common format for ease of use, and goes through possible detokenization, further quality checks, and life cycle management.Data is often transformed to reflect the needs of specific lines of business in this zone.
+* Sandbox:allows data scientists and managers to create ad hoc exploratory use cases without the need to involve the IT department or dedicate funds to creating suitable environments within which to test the data.
 
