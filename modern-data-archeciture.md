@@ -1,4 +1,25 @@
 
+## Introduction
+
+There are different ways to build data stack which helps in data analytics and building data driven compoany. Traditionally, companies used to work on data warehouse where they mainly used ETL (Extract,Tranform and Load) to take the required data from
+ data sources and then transform it in a way that fit their busienss needs and finally load it in the data warehouse which is a centrlize database which hosts all different company data which analytics can use to build required reports and dashboard.
+
+New methods have been developed with big data era where huge amount of data get genereted from different new sources like soical media , IoT sensors and other crowdsourcing platform. A new concept gets introudced called ELT (Extract,Load and Transform)
+ where organization capture data from sources in its raw form and store it locally in something called data lake. Then, they use some tools to transform required data based on bussiness requirement and store in the data warehouse which enabled BI analytics
+ to build required reports and dashboard.
+
+In addtion, Articial Intellegince has been evovled dramitacly which enabled data scientent to build a machine learning alogrithms over data lakes in order to come up with new data insights.
+
+## Component of modern data stack
+
+The main component of a modern data stack is the developing and building data lake because data lake enables companies to store different data types including structured , semi-structured and unstructured data. On other hand, datawarehouse focus on schema
+ on write and can only accept structured data. 
+
+Majority of modern data stack utilize cloud provider services in order to build an efficent and powerful data stack. with help of cloud, organization can use very high computation for specfic time where they need perform required analysis.
+
+
+## Popular modern data stack
+
 There are different architectures for lake house or data lake.
 
 Here some of the modern data architecture:
