@@ -40,6 +40,9 @@ general lakehouse:
 
 ![lakehouse_general](https://user-images.githubusercontent.com/46624390/154840355-1046d595-553d-41a9-b7ab-4b1b27203676.png)
 
+Continual :
+![image](https://user-images.githubusercontent.com/46624390/155943456-9ecc2758-d6ce-4bae-a008-6592e8b52b75.png)
+
 
 Some common storage options for data lake :
 *	Hadoop: the preferred option for on-premise.
